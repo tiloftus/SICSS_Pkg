@@ -1,0 +1,21 @@
+Metadata-Version: 2.4
+Name: SICSS_Pkg
+Version: 0.1
+Summary: A minimal example package for SICSS
+Home-page: https://github.com/tiloftus/SICSS_Pkg
+Author: Timothy Loftus
+Author-email: tiloftus.4@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
+
+# SICSS_Pkg

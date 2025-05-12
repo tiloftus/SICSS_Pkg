@@ -1,0 +1,8 @@
+README.md
+setup.py
+SICSS_Pkg/__init__.py
+SICSS_Pkg/core.py
+SICSS_Pkg.egg-info/PKG-INFO
+SICSS_Pkg.egg-info/SOURCES.txt
+SICSS_Pkg.egg-info/dependency_links.txt
+SICSS_Pkg.egg-info/top_level.txt
