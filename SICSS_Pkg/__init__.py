@@ -1,1 +1,1 @@
-from .core import shout, whisper, repeat
+from .core import count_words, get_top_n_words
