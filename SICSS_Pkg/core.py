@@ -9,10 +9,10 @@ def count_words(text):
     return len(text.split())
 
 # Unpacks text file into a string and then runs count_words
-def run_count_words_from_file(filename, n=10):
+def run_count_words_from_file(filename):
     with open(filename, 'r', encoding='utf-8') as f:
         text = f.read()
-    return avg_word_length(text, n)
+    return avg_word_length(text)
 
 # Get top n words of a string- n defaults to 10
 def get_top_n_words(text, n=10):
@@ -40,7 +40,7 @@ def avg_word_length(text):
     return total_length / len(words)
 
 # Unpacks text file into a string and then runs avg_word_length
-def run_avg_words_from_file(filename, n=10):
+def run_avg_words_from_file(filename):
     with open(filename, 'r', encoding='utf-8') as f:
         text = f.read()
-    return avg_word_length(text, n)
+    return avg_word_length(text)
