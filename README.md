@@ -5,14 +5,14 @@ An example package used for SICSS. The package provides multiple simple function
 2. Open the file example.ipynb, which is just an empty Python notebook. 
 
 3. In a code cell, install the example package, which is called SICSS_Pkg. In addition to the example package I made, you will also need to install nltk, a popular Python package for working with human language data.
-```
+```bash
 !pip install -e .
 !pip install nltk
 ```
 After you install the packages, you might have to restart the kernel (Kernel -> Restart Kernel).
 
 4. The directory also includes a file containing a famous speech. Now that the package is installed, import one of its functions and count the number of words in the speech.
-```
+```python
 from SICSS_Pkg.core import run_count_words_from_file
 run_count_words_from_file("speech.txt")
 ```
