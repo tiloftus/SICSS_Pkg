@@ -12,7 +12,7 @@ def count_words(text):
 def run_count_words_from_file(filename):
     with open(filename, 'r', encoding='utf-8') as f:
         text = f.read()
-    return avg_word_length(text)
+    return count_words(text)
 
 # Get top n words of a string- n defaults to 10
 def get_top_n_words(text, n=10):
