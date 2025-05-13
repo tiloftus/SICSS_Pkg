@@ -1,10 +1,10 @@
 An example package used for SICSS. The package provides multiple simple functions to be used for text analysis. These functions are count_words, get_top_n_words, and avg_word_length. To run the functions on text files, the functions run_count_words_from_file, run_top_words_from_file, and run_avg_words_from_file are included.
 
-1. Take a look at core.py to see these functions.
+1. Take a look at core.py to see these functions. Also, feel free to look at setup.py and __init__.py while exploring the file structure of the package directory as a whole.
 
 2. Open the file example.ipynb, which is just an empty Python notebook. 
 
-3. In a code cell, install the example package. In addition to the example package I made, you will also need to install nltk, a popular Python package for working with human language data.
+3. In a code cell, install the example package, which is called SICSS_Pkg. In addition to the example package I made, you will also need to install nltk, a popular Python package for working with human language data.
 ```
 !pip install -e .
 !pip install nltk

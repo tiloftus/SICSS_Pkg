@@ -16,7 +16,7 @@ def run_count_words_from_file(filename):
 
 # Get top n words of a string- n defaults to 10
 def get_top_n_words(text, n=10):
-    stop_words = {'the', 'and', 'a', 'an', 'in', 'on', 'at', 'of', 'to', 'for', 
+    stop_words = {'to', 'for', 
                   'with', 'that', 'is', 'was', 'as', 'by', 'it', 'this', 'from', 
                   'be', 'or', 'are', 'but', 'if', 'not', 'we', 'you', 'they', 
                   'he', 'she', 'them', 'his', 'her', 'its'}
